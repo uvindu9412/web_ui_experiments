@@ -1,0 +1,41 @@
+body{
+    background-color: #202223;
+    width: 100vw;
+    font-family: "Gotham Bold";
+}
+h3{
+    color: #969a9d;
+}
+.centersc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textbox{
+    margin: auto;
+    width: 100%;
+    background-color: #202223;
+    color: #bec3c7;
+    border-color: #bec3c7;
+    border-width: 2px;
+    font-family: "Gotham";
+    text-transform: uppercase;
+    text-align: center;
+    display: none;
+}
+.textcenter{
+    text-align: center;
+    display: none;
+}
+.alternativefont{
+    font-family: Gotham;
+}
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('fonts/ufonts.com_gotham-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/ufonts.com_gotham-book.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
